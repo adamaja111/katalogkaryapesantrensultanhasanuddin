@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KATALOG KARYA PESANTREN SULTAN HASANUDDIN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="opening-motion">
+    <img src="image/logo.png" class="opening-logo">
+</div>
+
+    <div class="bg-kaligrafi">
+    <img src="image/anima.jpeg" class="kaligrafi k1">
+    <img src="image/anima.jpeg" class="kaligrafi k2">
+    <img src="image/anima.jpeg" class="kaligrafi k3">
+</div>
+
+  <main class="wrap">
+    <header class="topbar">
+  <div class="brand">
+
+    <!-- GANTI BAGIAN LOGO MENJADI GAMBAR -->
+    <img src="image/logo.png" class="logo" alt="Logo Pesantren" />
+
+    <div>
+      <h1>KATALOG KARYA PESANTREN SULTAN HASANUDDIN</h1>
+      <p class="subtitle">Koleksi Karya Waste Recycling</p>
+    </div>
+  </div>
+</header>
+
+
+    <section class="gallery" id="gallery" aria-label="Galeri Karya">
+      <!-- Cards dibuat/dirender oleh JS -->
+    </section>
+  </main>
+
+  <!-- MODAL (detail) -->
+  <div class="backdrop" id="backdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-label="Detail Karya">
+      <button class="close" id="closeBtn" aria-label="Tutup">&times;</button>
+
+      <div class="modal-left">
+        <h2 id="modal-title">Judul Karya</h2>
+        <div id="modal-category" class="muted">Kategori</div>
+        <p id="modal-desc" class="desc">Deskripsi singkat...</p>
+
+        <h3 class="section-title">Komponen Pembuatan</h3>
+        <div id="components" class="components-list" role="list">
+          <!-- komponen terisi oleh JS -->
+        </div>
+
+        <div class="section-title" style="margin-top:18px">Informasi</div>
+        <div class="meta">
+          <div><strong>Ukuran:</strong> <span id="meta-size">-</span></div>
+          <div><strong>Teknik:</strong> <span id="meta-tech">-</span></div>
+        </div>
+      </div>
+
+      <aside class="modal-right" id="previewPanel">
+        <div class="preview-card">
+          <img id="preview-img" src="" alt="Preview artwork">
+          <div class="preview-info">
+            <h4 id="preview-title">Pilih komponen</h4>
+            <p id="preview-desc">Klik salah satu komponen di sisi kiri untuk melihat gambar & keterangan.</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
