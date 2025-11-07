@@ -49,13 +49,13 @@ const PRODUCTS = [
     category: 'Hiasan Dinding',
     desc: 'Kaligrafi ini terbuat dari bahan dasar tempurung kelapa dan serbuk kayu. Tempurung kelapa dipecah menjadi pecahan kecil kemudian ditempelkan ke triplek dengan menggunakan lem.',
     size: '40 x 60 cm',
-    technique: 'Acrylic + Gold Leaf',
+    technique: 'Handmade',
     art: 'image/kaligrafi 1.jpg',
     components: [
-      { id:'acry1', img:'image/pelepah.jpeg', label:'Acrylic Sheet', note:'Lapis dasar bening sebagai kanvas.' },
-      { id:'acry2', img:'image/gold.png', label:'Gold Paint', note:'Memberi aksen kilau pada huruf.' },
-      { id:'acry3', img:'image/stencil.png', label:'Stencil Vinyl', note:'Panduan untuk detail huruf presisi.' },
-      { id:'acry4', img:'image/led.png', label:'LED Strip', note:'Backlight untuk efek gallery.' }
+      { id:'acry1', img:'image/tempurung.jpeg', label:'Tempurung kering', note:'Bahan utama dalam pembuatan kaligrafi yang dijadikan pecahan kecil.' },
+      { id:'acry2', img:'image/serbuk kayu.jpeg', label:'Serbuk Kayu kering', note:'sebagai penghias bingkai kaligrafi.' },
+      // { id:'acry3', img:'image/stencil.png', label:'Stencil Vinyl', note:'Panduan untuk detail huruf presisi.' },
+      // { id:'acry4', img:'image/led.png', label:'LED Strip', note:'Backlight untuk efek gallery.' }
     ]
   },
   {
@@ -63,12 +63,12 @@ const PRODUCTS = [
     category: 'Botol Minuman',
     desc: 'Tumbler ini terbuat dari bahan stainless yang dapat digunakan berulang kali, sehingga efektif dalam mengurangi sampah plastik.',
     size: '30 x 50 cm',
-    technique: 'Laser Cutting + Stain',
+    technique: '/',
     art: 'image/tumbler 1.jpg',
     components: [
-      { id:'las1', img:'https://via.placeholder.com/400x300?text=Plywood', label:'Plywood Board', note:'Bahan utama untuk pemotongan.' },
-      { id:'las2', img:'https://via.placeholder.com/400x300?text=Laser', label:'CO2 Laser', note:'Mesin potong pola kaligrafi.' },
-      { id:'las3', img:'https://via.placeholder.com/400x300?text=Paint', label:'Black Stain', note:'Finishing agar tampak elegan.' }
+      { id:'las1', img:'image/stain.jpeg', label:'Material Stainless Steel', note:'Material Stainless Steel sebagai bahan utama. Memiliki ketahanan korosi yang tinggi, tidak mudah berkarat meski sering kontak dengan air atau minuman asam, sehingga dapat digunakan secara berulang untuk mengurangi penggunaan sampah botol plastik.' },
+      // { id:'las2', img:'https://via.placeholder.com/400x300?text=Laser', label:'CO2 Laser', note:'Mesin potong pola kaligrafi.' },
+      // { id:'las3', img:'https://via.placeholder.com/400x300?text=Paint', label:'Black Stain', note:'Finishing agar tampak elegan.' }
     ]
   },
   {
@@ -76,27 +76,41 @@ const PRODUCTS = [
     category: 'Hiasan Dinding',
     desc: 'Kaligrafi ini terbuat dari bahan dasar pelepah pisang. Pelepah pisang yang telah dikeringkan kemudian dijadikan dasar untuk menuliskan Kalam Ilahi yang indah di atas nya menggunakan pewarna alami.',
     size: 'Custom Screen',
-    technique: 'LED Matrix + Microcontroller',
+    technique: 'Handmade',
     art: 'image/kaligrafi 2.jpg',
     components: [
-      { id:'led1', img:'https://via.placeholder.com/400x300?text=LED+Matrix', label:'LED Matrix', note:'Tampilan dinamis.' },
-      { id:'led2', img:'https://via.placeholder.com/400x300?text=PCB', label:'PCB Board', note:'Rangkaian kontrol.' },
-      { id:'led3', img:'https://via.placeholder.com/400x300?text=Arduino', label:'Arduino', note:'Pengontrol data.' }
+      { id:'led1', img:'image/pelepah.jpeg', label:'Pelepah Pisang', note:'Bahan utama Pelepah pisang yan telah dikeringkan.' },
+      { id:'led2', img:'image/cat.jpeg', label:'Cat Akrilik', note:'Menggunakan cat akrilik.' },
+      // { id:'led3', img:'https://via.placeholder.com/400x300?text=Arduino', label:'Arduino', note:'Pengontrol data.' }
     ]
   },
   {
     title: 'Jam Meja',
     category: 'Hiasan Meja',
-    desc: 'Jam ini terbuat dari bahan dasar plastik penutup botol. Penutup botol ini dipanaskan pada suhu tertentu menggunakan alat khusus, sehingga dapat meleleh dan dapat dicetak menjadi bentuk. Setelah terbentuk, plastik ini kemudian dipadukan dengan akar dan ranting pohon yang sudah mati untuk menjadi sebuah hiasan meja yang estetik.',
+    desc: 'Jam ini terbuat dari bahan dasar plastik penutup botol dan akar kayu. Penutup botol ini dipanaskan pada suhu tertentu menggunakan alat khusus, sehingga dapat meleleh dan dapat dicetak menjadi bentuk. Setelah terbentuk, plastik ini kemudian dipadukan dengan akar dan ranting pohon yang sudah mati untuk menjadi sebuah hiasan meja yang estetik.',
     size: '20 x 40 cm',
-    technique: 'Vinyl Cutting + Transfer',
+    technique: 'Homemade',
     art: 'image/jam.jpg',
     components: [
-      { id:'vin1', img:'https://via.placeholder.com/400x300?text=Vinyl', label:'Sticker Vinyl', note:'Bahan utama.' },
-      { id:'vin2', img:'https://via.placeholder.com/400x300?text=Cutter', label:'Cutting Plotter', note:'Mesin pemotong detail.' },
-      { id:'vin3', img:'https://via.placeholder.com/400x300?text=Transfer', label:'Transfer Tape', note:'Memindahkan stiker.' }
+      { id:'vin1', img:'image/tutup botol.jpeg', label:'Tutup Botol Bekas', note:'Tutup botol bekas berbagai warna yang dikumpulkan menjadi bahan utama dari jam meja tersebut.' },
+      { id:'vin2', img:'image/akar.jpeg', label:'Akar Kayu', note:'Akar kayu sebagai penopang jam.' },
+      // { id:'vin3', img:'https://via.placeholder.com/400x300?text=Transfer', label:'Transfer Tape', note:'Memindahkan stiker.' }
     ]
-  }
+  },
+
+  {
+  title: 'Vas Bunga',
+  category: 'Hiasan Ruangan',
+  desc: 'Vas bunga dekoratif yang dibuat secara manual dari bahan ramah lingkungan dengan tampilan estetis untuk memperindah ruangan.',
+  size: '25 x 50 cm',
+  technique: 'Handmade',
+  art: 'image/pasbunga.jpg',
+  components: [
+    { id:'vas1', img:'image/tali.jpeg', label:'Tali Karung Goni', note:'Sebagai bahan utama Tali Karung Goni terbuat dari serat alami pohon rami/jute yang memiliki kekuatan tarik tinggimemiliki tekstur kasar namun kokoh, sehingga sering digunakan untuk mengikat beban berat bersifat biodegradable dan ramah lingkungan karena mudah terurai secara alami.' },
+    // { id:'vas2', img:'image/cat.jpeg', label:'Cat Dekoratif', note:'Memberikan warna dan perlindungan permukaan.' },
+    // { id:'vas3', img:'image/karet.jpeg', label:'Ring Silikon', note:'Penahan dasar untuk menjaga stabilitas dan anti slip.' }
+  ]
+}
 ];
 
 // Render gallery
