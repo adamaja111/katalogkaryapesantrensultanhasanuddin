@@ -85,7 +85,7 @@ const PRODUCTS = [
     ]
   },
   {
-    title: 'Jam dinding',
+    title: 'Jam Meja',
     category: 'Hiasan Meja',
     desc: 'Jam ini terbuat dari bahan dasar plastik penutup botol. Penutup botol ini dipanaskan pada suhu tertentu menggunakan alat khusus, sehingga dapat meleleh dan dapat dicetak menjadi bentuk. Setelah terbentuk, plastik ini kemudian dipadukan dengan akar dan ranting pohon yang sudah mati untuk menjadi sebuah hiasan meja yang estetik.',
     size: '20 x 40 cm',
