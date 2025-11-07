@@ -3,7 +3,7 @@
   --card:#0f1720cc;
   --muted:#9aa4ae;
   --gold:#e0b24a;
-  --glass: rgba(255,255,255,0.06);
+  --glass: #ffffff0f;
   --glass-2: rgba(255,255,255,0.04);
   --white:#ffffff;
 }
@@ -416,4 +416,29 @@ body {
     align-items: center;
     justify-content: center;
   }
+}
+.comp-meta strong {
+  color: #fbfbfb; 
+  font-weight: 700;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 4px;
+}
+.comp-meta small {
+  color: #adb5bd; 
+  display: block;
+  line-height: 1.35;
+  font-size: 12px;
+}
+.comp-meta {
+  text-align: left; /* pastikan seluruh teks rata kiri */
+}
+
+.comp-meta strong {
+  text-align: left;
+}
+
+.comp-meta small {
+  text-align: left;
+  display: block;
 }
