@@ -45,7 +45,7 @@ function setPreviewImage(src) {
 // Data
 const PRODUCTS = [
   {
-    title: 'Kaligrafi Tempurung Kelapa',
+    title: 'Kaligrafi Tempurung kelapa kering',
     category: 'Hiasan Dinding',
     desc: 'Kaligrafi ini terbuat dari bahan dasar tempurung kelapa dan serbuk kayu. Tempurung kelapa dipecah menjadi pecahan kecil kemudian ditempelkan ke triplek dengan menggunakan lem.',
     size: '40 x 60 cm',
